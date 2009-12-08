@@ -5,11 +5,12 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "merb_couchstrap"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{A simple gem to bootstrap couchrest into merb}
+    gem.description = %Q{merb_couchstrap bootstaps couchdb (via couchrest) into merb, loads settubgs from a couch.yml file before app loads}
     gem.email = "jon@epigenesys.co.uk"
     gem.homepage = "http://github.com/JonRowe/merb_couchstrap"
     gem.authors = ["Jon"]
+    gem.add_dependency "couchrest", ">= 0.33"
     gem.add_development_dependency "rspec", ">= 1.2.9"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
