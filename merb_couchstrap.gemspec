@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "lib/merb_couchstrap.rb",
+     "merb_couchstrap.gemspec",
      "spec/merb_couchstrap_spec.rb",
      "spec/spec.opts",
      "spec/spec_helper.rb"
